@@ -11,25 +11,29 @@ header{
     margin-top: -21px;
     margin-left: -8px;
     margin-right: -8px;
+    color: white;
+    background-color: black;
+
+}
+
+#teste{
+    min-width: 1120px;
+    min-height: 172px;
     position: relative;
 }
 
-.cabecalho{
-    display: inline-block;
-    position: absolute;
-}
-
 #titulo{
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    vertical-align: middle;
     margin-bottom: 10px;
     padding-top: 30px;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 
 }
 
 #logo{
-    position: absolute;
+
     background-image: url(../imagens/neotech-logopng.png);
     background-size: cover;
     width: 229px;
