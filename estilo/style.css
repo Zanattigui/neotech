@@ -12,35 +12,33 @@ header{
 }
 
 #teste{
-    min-width: 300px;
+    display: flex;
+    min-width: 150px;
     max-width: 1080px;
     margin: auto;
-    position: relative;
-    display: flex;
-    border: 1px solid white;
 }
 
 #logo{
+    display: flex;
     height: 200px;
     width: 230px;
+    min-width: 160px;
+    background-image: url(../imagens/neotech-logo230x200.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
-    margin-left: 20px;
-    border: 1px solid white;
 }
 
 #titulo{
+    display: flex;
     text-align: center;
     height: 100px;
     max-width: 710px;
     min-width: 150px;
-    position: absolute;
-    left: 25%;
-    top: 30%;
-    margin: 0px 50px 0px 50px;
-    color: white;
+    margin: auto;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 2vh;
     font-weight: bolder;
-    border: 1px solid white;
 }
