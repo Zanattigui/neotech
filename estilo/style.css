@@ -58,5 +58,34 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    will-change: transform;
+}
+
+.frase{
+    background-color: rgba(255, 255, 0, 0.24);
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    top: 13.5%;
+    right: 66%;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+    line-height: 41px;
 }
     
+.logo-abaixo{
+    position: absolute;
+    background-image: url(../imagens/neotech-logopng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 319px;
+    height: 227px;
+    top: 0%;
+    right: 1%;
+}
