@@ -100,52 +100,145 @@ nav a:hover{
     font-weight: 500;
     color: #FECC02;
     text-shadow: 3px 2px 5px black;
+    font-variant: small-caps;
 }
 
 .pecas{
-
-    width: 100%;
+    margin: auto;
+    max-width: 1200px;
     height: 250px;
     display: flex;
 }
 
 .peca1{
-    background-image: url(../imagens/ponteira.png);
+    background-image: url(../imagens/injetor.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-
-    width: 255px;
-    height: 233px;
+    width: 300px;
+    height: 250px;
     margin: auto;
+    transition: 0.8s;
 }
 
 .peca2{
-    background-image: url(../imagens/ponteira.png);
+    background-image: url(../imagens/came-caixa.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 255px;
-    height: 233px;
+    width: 300px;
+    height: 250px;
     margin: auto;
+    transition: 0.8s;
 }
 
 .peca3{
-    background-image: url(../imagens/ponteira.png);
+    background-image: url(../imagens/sensor-caixa.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 255px;
-    height: 233px;
+    width: 300px;
+    height: 250px;
     margin: auto;
+    transition: 0.6s;
+}
+
+.peca1:hover{
+    background-image: url(../imagens/ponta-do-injetor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.peca2:hover{
+    background-image: url(../imagens/came.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.peca3:hover{
+    background-image: url(../imagens/sensor2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    transition: 0.6s;
 }
 
 .produtos{
-
     display: flex;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .prod{ 
     font-size: 3vh;
-    margin: auto;
+    margin: auto auto 6vh auto;
     width: 255px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #d4aa00d8;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+
+.apresentacao{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+
+}
+
+.imgs{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px ;
+    display: flex;
+}
+
+.img{
+    width: 100px;
+    margin: auto;
+}
+
+.titulo-ap-mae{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.titulo-ap{
+    width: 226px;
+    margin: auto;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.frases-mae{
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+
+.frases{
+    width: 300px;
+    height: 284px;
+
+    text-align: center;
+    margin: auto;
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
 }
