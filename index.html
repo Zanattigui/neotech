@@ -11,9 +11,9 @@
 </head>
 <body>
     
-    <header class="cabecalho">
+    <header class="cabecalho" onresize="mudouTamanho()">
         <nav>
-            <span id="burguer" class="material-symbols-outlined">menu</span>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()()">menu</span>
             <div class="logo">
                 logo
             </div>
@@ -79,5 +79,25 @@
     <footer>
 
     </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
