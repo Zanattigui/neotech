@@ -12,23 +12,27 @@ header{
     background-color: rgb(0, 0, 0);
     height: 15vh;
     display: block;
-    border-bottom: 4px solid #e0b400;
+    border-bottom: 3px solid #e0b400;
 }
 
+header > nav > #burguer {
+    color: #e0b400;
+    display: inline-block;
+    float: right;
+    margin: 37px 25px;
+}
 header > nav > .logo {
     background-image: url(../imagens/neotech-logo2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 170px;
     height: 100px;
-    margin: 5px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     display: inline-block;
 }
 
 header > nav > .links {
-    color: white;
-    display: inline-block;
-    float: right;
+    display: none;
 }
 
 header > nav > .links > ul {
