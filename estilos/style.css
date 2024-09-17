@@ -128,12 +128,32 @@ nav > ul > li > a {
     background-image: url(../imagens/injetor.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.linha-de-pecas #bombas {
+    background-image: url(../imagens/bomba.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.linha-de-pecas #sensores {
+    background-image: url(../imagens/sensor.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
     height: 50%;
     margin: auto;
     padding-top: 10px;
 }
 
 .linha-de-pecas #nome-da-peca {
-    
+    text-align: center;
 }
