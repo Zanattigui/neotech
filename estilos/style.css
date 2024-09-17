@@ -86,12 +86,12 @@ nav > ul > li > a {
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
-    padding: 25px;
+    padding: 30px 100px;
 
 }
 
 #texto {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .destaque {
@@ -113,4 +113,23 @@ nav > ul > li > a {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+.linha-de-pecas .pecas {
+    width: 90%;
+    height: 55vh;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 20px;
+    
+}
+
+.linha-de-pecas #injetores {
+    background-image: url(../imagens/injetor.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-top: 10px;
 }
