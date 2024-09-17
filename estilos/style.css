@@ -86,7 +86,7 @@ nav > ul > li > a {
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
-    padding: 30px 100px;
+    padding: 30px 50px;
 
 }
 
@@ -96,7 +96,7 @@ nav > ul > li > a {
 
 .destaque {
     color: #fdcc02;
-    font-weight: 700;
+    font-weight: 800;
     font-variant: small-caps;
 }
 /*Fim apresentação */
@@ -132,4 +132,8 @@ nav > ul > li > a {
     height: 50%;
     margin: auto;
     padding-top: 10px;
+}
+
+.linha-de-pecas #nome-da-peca {
+    
 }
