@@ -140,7 +140,7 @@ nav > ul > li > a {
     background-repeat: no-repeat;
     width: 70%;
     height: 50%;
-    margin: auto;
+    margin: 0px 30px 0px 70px;
     padding-top: 10px;
 }
 
@@ -154,6 +154,8 @@ nav > ul > li > a {
     padding-top: 10px;
 }
 
-.linha-de-pecas #nome-da-peca {
+.linha-de-pecas .nome-da-peca {
     text-align: center;
+    font-size: 2em;
+
 }
