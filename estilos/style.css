@@ -18,7 +18,7 @@ body {
 header{
     background-color: rgb(0, 0, 0);
     display: block;
-    border: 3px solid #e0b400;
+    border: 2px solid #e0b400;
     
 }
 
@@ -57,7 +57,7 @@ nav > ul > li > a {
     color: white;
     font-weight: bold;
     text-align: center;
-    border: 2px solid #e0b400;
+    border: 1px solid #e0b400;
     
 }
 /*Fim do Menu de celular*/
@@ -288,3 +288,4 @@ footer .titulo-footer {
     border-radius: 55%;
     display: inline-block;
 }
+/* Fim Footer */
