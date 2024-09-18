@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #ffcc00;
+    background-color: rgb(238, 238, 238);
 }
 
 /*Menu De Celular*/
@@ -96,15 +96,16 @@ nav > ul > li > a {
 
 .destaque {
     color: #fdcc02;
-    font-weight: 800;
-    font-variant: small-caps;
+    font-weight: bolder;
+    
 }
 /*Fim apresentação */
 
 /*Inicio Linhas de peças*/
 
 .linha-de-pecas {
-    background-color: #ffcc00;
+    background: linear-gradient(to bottom, #ffcc00 95%, rgb(238, 238, 238)) ;
+    padding-bottom: 50px;
 }
 
 .linha-de-pecas #titulo-linhas {
@@ -121,7 +122,7 @@ nav > ul > li > a {
     background-color: white;
     margin: 25px auto;
     border-radius: 20px;
-    
+
 }
 
 .linha-de-pecas #injetores {
@@ -135,12 +136,12 @@ nav > ul > li > a {
 }
 
 .linha-de-pecas #bombas {
-    background-image: url(../imagens/bomba.png);
-    background-size: contain;
+    background-image: url(../imagens/bomba-neo.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 70%;
-    height: 50%;
-    margin: 0px 30px 0px 70px;
+    width: 82%;
+    height: 41%;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -156,7 +157,9 @@ nav > ul > li > a {
 
 .linha-de-pecas .nome-da-peca {
     width: 50%;
-    margin: auto;
+    margin: 15% auto;
+    border-radius: 20px;
+    background-color: #ffcc00;
     text-align: center;
     font-size: 2em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -167,25 +170,6 @@ nav > ul > li > a {
 
 .linha-de-pecas #p-bomba {
     width: 70%;
-}
-
-.linha-de-pecas .pecas .ver-mais {
-    width: 50%;
-    margin: auto;
-    padding: 12px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    background-color: #ffcc00; 
-
-}
-
-.linha-de-pecas .pecas .ver-mais > a {
-    text-decoration: none;
-    color: rgb(17, 17, 17);
-    margin: 0px 0px;
 }
 
 .linha-de-pecas #ver-todas-linhas {
@@ -202,4 +186,38 @@ nav > ul > li > a {
     color: white;
     font-size: 1.3em;
     font-weight: bold;
+}
+/* Fim da sessão de peças */
+/* Inicio sessão de contato e duvida */
+#duvida {
+   padding-bottom: 20px;
+}
+
+#frase-duvida {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffcc00;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.5em;
+
+}
+
+#link-contato {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
