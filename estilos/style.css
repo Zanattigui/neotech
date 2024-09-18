@@ -241,7 +241,7 @@ nav > ul > li > a {
 footer {
     background: linear-gradient(to top, black 90%, rgb(238, 238, 238) );
     color: white;
-    padding: 45px 0px 30px 0px;
+    padding: 45px 0px 30px 23px;
 }
 
 footer #logo-footer {
@@ -250,11 +250,41 @@ footer #logo-footer {
     background-repeat: no-repeat;
     width: 70%;
     height: 5vh;
-    margin: 1% 5%;
+
 }
 
 footer #frase-footer {
-    border: 2px solid white;
+    width: 70%;
+    padding: 15px 0px 20px 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer .titulo-footer {
+    padding: 10px 0px 10px 0px;
 
 }
 
+.complementos {
+    display: block;
+    padding-left: 10px;
+}
+
+.icons {
+    background-color: #ffcc00;
+    width: 5%;
+    border-radius: 55%;
+    display: inline-block;
+}
+
+.enderecos {
+    display: inline-block;
+    transform: translateY(-4px);
+}
+
+.icons-sociais {
+    background-color: #ffcc00;
+    width: 10%;
+    border-radius: 55%;
+    display: inline-block;
+}
