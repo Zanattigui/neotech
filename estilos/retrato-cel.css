@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+.linha-de-pecas {
+    display: block;
+
+}
+
+.linha-de-pecas .pecas {
+    width: 40%;
+    height: 55vh;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.linha-de-pecas #injetores {
+    width: 40%;
+    height: 50%;
+}
+
+.linha-de-pecas #bombas {
+    width: 82%;
+    height: 70%;
+}
+
+.linha-de-pecas #sensores {
+    width: 45%;
+    height: 50%;
+}
+
+.linha-de-pecas .nome-da-peca {
+    margin: 9% auto;
+    font-size: 1em;
+    padding: 0px;
+
+}
