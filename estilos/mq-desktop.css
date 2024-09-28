@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoint 
+ Pquenas telas: até 600px
+ Celular: 600px ate 768px
+ Tablet: 768px até 992px
+ Desktop: 992 até 1200px
+ Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 992px) {
+
+    header {
+        height: 130px;
+        position: relative;
+    }
+
+    header > .logo {
+        background-image: url(../imagens/neotech-escrita.png);
+        background-size: contain;
+        width: 270px;
+        height: 64px;
+        padding-top: 10px;
+    }
+
+    #burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 20px);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav > ul > li > a {
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        border: 0px; 
+    }
+
+    nav > ul > li > a:hover {
+        background-color: #e0b400;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    main{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
