@@ -19,18 +19,20 @@
 
 
     <header>
-        <div class="logo">
-            <!--Logo-->
+        <div class="cabecalho">
+            <div class="logo">
+                <!--Logo-->
+            </div>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()" >menu</span> <!-- Menu Hambueguer -->
+            <nav id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Localização</a></li>
+                </ul>
+            </nav>
         </div>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()" >menu</span> <!-- Menu Hambueguer -->
-        <nav id="itens">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Localização</a></li>
-            </ul>
-        </nav>
     </header>
 
 
@@ -42,25 +44,30 @@
                 <!--Foto do caminhao-->
             </div>
 
-            <p id="titulo" class="introducao">Escolha <span class="destaque">Neotech </span> e experimente a <span class="destaque">excelência</span> em cada detalhe.</p>
-
-            <p id="texto" class="introducao">Na <span class="destaque">Neotech Diesel</span>, cada peça é projetada para oferecer máximo desempenho e durabilidade, garantindo que os veículos funcionem com eficiência e confiabilidade.</p>
+            <div class="limitador">
+                <p id="titulo" class="introducao">Escolha <span class="destaque">Neotech </span> e experimente a <span class="destaque">excelência</span> em cada detalhe.</p>
+                <p id="texto" class="introducao">Na <span class="destaque">Neotech Diesel</span>, cada peça é projetada para oferecer máximo desempenho e durabilidade, garantindo que os veículos funcionem com eficiência e confiabilidade.</p>
+            </div>
 
         </section>
 
-        <section class="linha-de-pecas">
+        <section class="linha-de-pecas"> 
             <p id="titulo-linhas">Linhas de peças</p>
-            <div class="pecas">
-                <div id="injetores"><!--Foto do Injetor--></div>
-                <p class="nome-da-peca">Injetores</p>
-            </div>
-            <div class="pecas">
-                <div id="bombas"><!--Foto da bomba--></div>
-                <p class="nome-da-peca" id="p-bomba">Bombas de Alta</p>
-            </div>
-            <div class="pecas">
-                <div id="sensores"><!--Foto do Sensor--></div>
-                <p class="nome-da-peca">Sensores</p>
+            <div class="limitador">
+                <div class="div-pecas">
+                    <div class="pecas">
+                        <div id="injetores"><!--Foto do Injetor--></div>
+                        <p class="nome-da-peca">Injetores</p>
+                    </div>
+                    <div class="pecas" id="bomba">
+                        <div id="bombas"><!--Foto da bomba--></div>
+                        <p class="nome-da-peca" id="p-bomba">Bombas de Alta</p>
+                    </div>
+                    <div class="pecas">
+                        <div id="sensores"><!--Foto do Sensor--></div>
+                        <p class="nome-da-peca">Sensores</p>
+                    </div>
+                </div>
             </div>
             <p id="ver-todas-linhas"><a href="#">Ver todas as linhas</a></p>
         </section>

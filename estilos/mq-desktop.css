@@ -10,17 +10,27 @@
 
 @media screen and (min-width: 992px) {
 
+
     header {
         height: 130px;
         position: relative;
     }
 
-    header > .logo {
+    header .cabecalho {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    header .logo {
         background-image: url(../imagens/neotech-escrita.png);
         background-size: contain;
         width: 270px;
         height: 64px;
         padding-top: 10px;
+        display: inline-block;
+        margin-left: 17%;
     }
 
     #burguer {
@@ -28,11 +38,8 @@
     }
 
     nav {
-        display: block;
-        margin: auto;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 20px);
+        display: inline-block;
+
     }
 
     nav ul li {
@@ -53,8 +60,47 @@
         transition: 1s;
     }
 
-    main{
+    .limitador {
         max-width: 1200px;
         margin: auto;
+    }
+
+    .div-pecas {
+        margin: auto;
+        width: 900px;
+    }
+
+    .linha-de-pecas .pecas {
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+    }
+
+    .linha-de-pecas #injetores {
+        background-size: contain;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .linha-de-pecas #bombas {
+        background-image: url(../imagens/bomba-neo-900px.png);
+        background-size: contain;
+        width: 255px;
+        height: 250px;
+    }
+    
+    .linha-de-pecas #bomba {
+        margin: 70px;
+    }
+
+    .linha-de-pecas #sensores {
+        background-size: contain;
+        width: 250px;
+        height: 250px;
+    }
+
+    .linha-de-pecas #ver-todas-linhas {
+        max-width: 1200px;
+        padding: 15px 0px;
     }
 }

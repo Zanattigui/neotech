@@ -22,7 +22,11 @@ header{
     
 }
 
-header > .logo {
+header .cabecalho {
+    display: block
+}
+
+header .logo {
     background-image: url(../imagens/neotech-logo2.png);
     background-size: cover;
     background-repeat: no-repeat;
